@@ -1,0 +1,35 @@
+/*MEDIA QU*/
+@media screen and (max-width:700px){
+    header .box{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    .botao{ 
+        margin-bottom:5px;
+        width: 150%;
+    
+    }
+
+    .box-principal .box-filme{
+        width: 65%;
+    }
+
+}
+
+
+/*MEDIA QU*/
+@media screen and (max-width:1000px){
+
+    .botao{ 
+        margin-bottom:5px;
+        width: 100%;
+    
+    }
+
+    .box-principal .box-filme{
+        width: 70%;
+    }
+
+}

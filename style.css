@@ -26,7 +26,7 @@ header .box{
 }
 
 .box img {
-    width:40vh;
+    width:30vh;
     margin: 5vh;
 
 }
@@ -34,7 +34,7 @@ header .box{
 header nav a{
     text-decoration: none;
     color:var(--cinza);
-    margin-right: 5vh;
+    margin-right: 2vh;
 }
 
 header nav a:hover{
@@ -45,23 +45,69 @@ header nav a:hover{
 /*Filme Principal*/
 
 .box-principal{
+
     font-size: 18px;
-    height: 400px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(img/animacoes/arkane/capa.png);
+    height: 450px;
+    background: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.50)100%), url(img/animacoes/arkane/capa.png);
     background-size: cover;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
     
 }
 
 .box-principal .descricao{
-    margin-bottom: 70px;
+    margin-top:10px;
+    margin-bottom: 70px;   
+     
+}
+
+.box-principal .box-filme{
+    margin-left: 7vh;
+    width: 50%;
+}
+
+.box-principal .botoes{
+    margin-left: 7vh;
+    width: 50%;
+
 }
 
 .titulo{
+    margin-top: 12%;
     font-size: 40px;
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
 }
 
+.botao{
+    background-color:rgba(0,0,0,.60);
+    border:none;
+    color:white;
+    padding: 15px 15px;
+    margin-right:10px;
+    font: size 12px;
+    cursor: pointer;
+    width:35%;
+
+}
+
+.botao i{
+    margin-right:5px;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+    transition:1s ease all;
+
+}
+
+.carrossel-filme{
+    height: 100%;
+    width:100%;
+    display: block;
+    margin-top: 7px;
+}
